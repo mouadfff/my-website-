@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>معاد الدمناتي - مبرمج صغير</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Cairo', sans-serif;
+    }
+    body {
+      background: #111;
+      color: #eee;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      background: linear-gradient(135deg, #0077ff, #00ccff);
+      color: white;
+    }
+    header img {
+      width: 120px;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-bottom: 10px;
+    }
+    header h1 {
+      font-size: 2.5em;
+    }
+    header p {
+      font-size: 1.2em;
+      opacity: 0.9;
+    }
+    section {
+      padding: 30px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      margin-bottom: 15px;
+      color: #00ccff;
+    }
+    .project, .lesson {
+      background: #222;
+      padding: 20px;
+      border-radius: 15px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px #000;
+    }
+    code {
+      display: block;
+      background: #333;
+      padding: 10px;
+      border-radius: 10px;
+      margin-top: 10px;
+      color: #0f0;
+      direction: ltr;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://i.ibb.co/WGfQsXR/cute-programmer.png" alt="معاد الدمناتي">
+    <h1>معاد الدمناتي</h1>
+    <p>مبرمج صغير يصنع مواقع خرافية ويعلّم HTML باحتراف</p>
+  </header>
+
+  <section>
+    <h2>📘 دروس HTML الكاملة</h2>
+
+    <div class="lesson">
+      <h3>الدرس 1: ما هي HTML؟</h3>
+      <p>HTML هي لغة ترميز تُستخدم لبناء صفحات الويب. وهي الأساس لأي موقع. HTML تعني "Hyper Text Markup Language".</p>
+      <code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;عنوان الصفحة&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;مرحبًا بك في HTML!&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code>
+    </div>
+
+    <div class="lesson">
+      <h3>الدرس 2: الوسوم الأساسية</h3>
+      <p>الوسوم (Tags) تُكتب بين &lt; و &gt; وتُستخدم لتحديد أجزاء الصفحة، مثل العناوين، الفقرات، الصور...</p>
+      <ul>
+        <li><code>&lt;p&gt;</code>: فقرة</li>
+        <li><code>&lt;h1&gt;</code> إلى <code>&lt;h6&gt;</code>: العناوين</li>
+        <li><code>&lt;img&gt;</code>: صورة</li>
+        <li><code>&lt;a&gt;</code>: رابط</li>
+        <li><code>&lt;ul&gt;</code> / <code>&lt;ol&gt;</code>: قائمة</li>
+      </ul>
+    </div>
+
+    <div class="lesson">
+      <h3>الدرس 3: الروابط والصور</h3>
+      <p>لإضافة روابط وصور داخل HTML نستعمل:</p>
+      <code>&lt;a href="https://example.com"&gt;زر رابط&lt;/a&gt;
+&lt;img src="image.jpg" alt="وصف الصورة"&gt;</code>
+    </div>
+
+    <div class="lesson">
+      <h3>الدرس 4: القوائم والجداول</h3>
+      <p>القوائم تُستخدم لعرض عناصر بشكل منظم:</p>
+      <code>&lt;ul&gt;
+  &lt;li&gt;عنصر 1&lt;/li&gt;
+  &lt;li&gt;عنصر 2&lt;/li&gt;
+&lt;/ul&gt;</code>
+      <p>أما الجداول:</p>
+      <code>&lt;table&gt;
+  &lt;tr&gt;&lt;th&gt;اسم&lt;/th&gt;&lt;th&gt;عمر&lt;/th&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;معاد&lt;/td&gt;&lt;td&gt;12&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</code>
+    </div>
+
+  </section>
+
+  <section>
+    <h2>🛠️ مشاريعي</h2>
+    <div class="project">
+      <h3>مشروع: صفحة شخصية</h3>
+      <p>صممت صفحة بسيطة عن نفسي باستخدام HTML وCSS.</p>
+    </div>
+    <div class="project">
+      <h3>مشروع: صفحة دروس</h3>
+      <p>أنشأت صفحة تعليمية تحتوي على دروس HTML منظمة.</p>
+    </div>
+  </section>
+
+</body>
+</html>
